@@ -2,22 +2,29 @@
 
 ## PVE LOW HIT
 ### Based on https://www.wowhead.com/tbc/guide/classes/rogue/dps-stat-priority-attributes-pve
+
 ( Pawn: v1: "pve-low-hit": Class=Rogue, Spec=Combat, Agility=2.21, AllResist=0.2, Ap=1, ArcaneResist=0.04, Armor=0.005, ArmorPenetration=0.42, CritRating=1.76, DefenseRating=0.05, DodgeRating=0.05, ExpertiseRating=3.11, FireResist=0.04, FrostResist=0.04, HasteRating=2.31, HitRating=2.85, Hp5=1, IsFrill=X, IsOffHand=X, MasteryRating=1, MeleeDps=4.7, MeleeMaxDamage=1.25, MeleeMinDamage=1.25, MetaSocketEffect=36, NatureResist=0.04, ParryRating=0.12, ResilienceRating=0.2, ShadowResist=0.04, Spirit=0.05, Stamina=0.1, Strength=1.1 )
+
 
 ## PVE HIT AT 9%
 ### Based on https://www.wowhead.com/tbc/guide/classes/rogue/dps-stat-priority-attributes-pve
 ### Note: You want 9% minimum  hit for yellow attacks not to miss.  White attacks will miss up to 28% hit.  Above 9% is fine, but would not go above 10 or 11 total as other attributes will lead to higher dps. 
+
 ( Pawn: v1: "pve-high-hit": Class=Rogue, Spec=Combat, Agility=2.21, AllResist=0.2, Ap=1, ArcaneResist=0.04, Armor=0.005, ArmorPenetration=0.42, CritRating=1.76, DefenseRating=0.05, DodgeRating=0.05, ExpertiseRating=3.11, FireResist=0.04, FrostResist=0.04, HasteRating=2.31, HitRating=0.0, Hp5=1, IsFrill=X, IsOffHand=X, MasteryRating=1, MeleeDps=4.7, MeleeMaxDamage=1.25, MeleeMinDamage=1.25, MetaSocketEffect=36, NatureResist=0.04, ParryRating=0.12, ResilienceRating=0.2, ShadowResist=0.04, Spirit=0.05, Stamina=0.1, Strength=1.1 )
+
+
 
 # ------------------ PVP ------------------- #
 
 ## PVP LOW HIT
 ### Based on https://www.youtube.com/watch?v=l8rO5yeL1_k (Mirlol BiS reverse engineered into APEP. 
+
 ( Pawn: v1: "pvp-low-hit": Class=Rogue, Spec=Subtlety, Agility=1.8, AllResist=0.2, Ap=1, ArcaneResist=0.04, Armor=0.03, ArmorPenetration=0.3, CritRating=1.35, DefenseRating=0.05, DodgeRating=0.05, ExpertiseRating=1.75, FireResist=0.04, FrostResist=0.04, HasteRating=1, HitRating=1.3, Hp5=1, IsFrill=X, IsOffHand=X, MasteryRating=1, MeleeDps=4.7, MeleeMaxDamage=1.25, MeleeMinDamage=1.25, MetaSocketEffect=36, NatureResist=0.04, ParryRating=0.12, ResilienceRating=1.35, ShadowResist=0.04, Spirit=0.05, Stamina=0.5, Strength=1.1 )
 
 ## PVP HIT AT 5%
 ### Based on https://www.youtube.com/watch?v=l8rO5yeL1_k (Mirlol BiS reverse engineered into APEP. 
 ### Note: You want 5% minimum hit and can go up to 7% since some players spec into talents that reduces your hit chance.
+
 ( Pawn: v1: "pvp-high-hit": Class=Rogue, Spec=Subtlety, Agility=1.8, AllResist=0.2, Ap=1, ArcaneResist=0.04, Armor=0.03, ArmorPenetration=0.3, CritRating=1.35, DefenseRating=0.05, DodgeRating=0.05, ExpertiseRating=1.75, FireResist=0.04, FrostResist=0.04, HasteRating=1, HitRating=0.0, Hp5=1, IsFrill=X, IsOffHand=X, MasteryRating=1, MeleeDps=4.7, MeleeMaxDamage=1.25, MeleeMinDamage=1.25, MetaSocketEffect=36, NatureResist=0.04, ParryRating=0.12, ResilienceRating=1.35, ShadowResist=0.04, Spirit=0.05, Stamina=0.5, Strength=1.1 )
 
 
@@ -26,7 +33,9 @@
 ### Use these strings to measure offhand specifically.  The other profiles will measure mainhand. 
 
 ## PVE OFFHAND
+
 ( Pawn: v1: "pve-ohand": Class=Rogue, Agility=2.21, AllResist=0.2, Ap=1, ArcaneResist=0.04, Armor=0.005, ArmorPenetration=0.42, CritRating=1.76, DefenseRating=0.05, DodgeRating=0.05, ExpertiseRating=3.11, FireResist=0.04, FrostResist=0.04, HasteRating=2.31, HitRating=1, Hp5=1, IsCloth=X, IsFrill=X, IsLeather=X, IsRanged=X, MainHandDps=X, MasteryRating=1, MeleeDps=2.35, MeleeSpeed=-60, MetaSocketEffect=36, NatureResist=0.04, ParryRating=0.12, ResilienceRating=0.2, ShadowResist=0.04, SpeedBaseline=2.9, Spirit=0.05, Stamina=0.1, Strength=1.1 )
 
 ## PVP OFFHAND
+
 ( Pawn: v1: "pvp-ohand": Class=Rogue, Agility=1.8, AllResist=0.2, Ap=1, ArcaneResist=0.04, Armor=0.005, ArmorPenetration=0.3, CritRating=1.35, DefenseRating=0.05, DodgeRating=0.05, ExpertiseRating=1.75, FireResist=0.04, FrostResist=0.04, HasteRating=1, HitRating=1.3, Hp5=1, IsCloth=X, IsFrill=X, IsLeather=X, IsRanged=X, MainHandDps=X, MasteryRating=1, MeleeDps=2.35, MeleeSpeed=-60, MetaSocketEffect=36, NatureResist=0.04, ParryRating=0.12, ResilienceRating=1.35, ShadowResist=0.04, SpeedBaseline=2.9, Spirit=0.05, Stamina=0.5, Strength=1.1 )
