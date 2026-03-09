@@ -31,7 +31,11 @@
 
 # ---------------- OFFHAND ----------------- #
 ### Use these strings to measure offhand specifically.  The other profiles will measure mainhand. 
-### ~~~~   IMPORTANT NOTE ~~~~~~       BE CAREFUL WITH WEAPON SCORES.  Weapon types are not considered, so ability normalization and spec isn't accounted for. 
+
+###   !!! IMPORTANT NOTE !!!      
+
+##  BE CAREFUL WITH WEAPON SCORES.  They can be inaccurate.  Weapon types are not considered, so ability normalization isn't possible. 
+##  Spec is also not considered.    YOU HAVE BEEN WARNED!
 
 ## PVE OFFHAND
 
