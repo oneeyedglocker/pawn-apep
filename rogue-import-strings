@@ -1,7 +1,8 @@
 # ------------------ PVE ------------------- #
 # References: https://www.wowhead.com/tbc/guide/classes/rogue/dps-stat-priority-attributes-pve, wowsims, multiple rogue discord channels
 # These profiles allows us to evaulate gear choices that closer align with actual dps vs. adhearing to a "must reach hit cap" methodology.
-# soft cap: 9% (yellow attacks), 28% (white/auto attacks)
+# soft cap: 9% (yellow attacks), hard cap 28% (white/auto attacks)
+# We are only aiming for 25% 
 # Look at your current Hit rating % and use the appropriate scale
 
 ( Pawn: v1: "pve-hit-0-9": Class=Rogue, Spec=Combat, Agility=2.21, AllResist=0.2, Ap=1, ArcaneResist=0.04, Armor=0.005, ArmorPenetration=0.42, CritRating=1.76, DefenseRating=0.05, DodgeRating=0.05, ExpertiseRating=3.11, FireResist=0.04, FrostResist=0.04, HasteRating=2.31, HitRating=2.85, Hp5=1, IsFrill=X, IsOffHand=X, MasteryRating=1, MeleeDps=4.7, MeleeMaxDamage=1.25, MeleeMinDamage=1.25, MetaSocketEffect=36, NatureResist=0.04, ParryRating=0.12, ResilienceRating=0.2, ShadowResist=0.04, Spirit=0.05, Stamina=0.1, Strength=1.1 )
@@ -10,8 +11,9 @@
 
 ( Pawn: v1: "pve-hit-12-16": Class=Rogue, Spec=Combat, Agility=2.21, AllResist=0.2, Ap=1, ArcaneResist=0.04, Armor=0.005, ArmorPenetration=0.42, CritRating=1.76, DefenseRating=0.05, DodgeRating=0.05, ExpertiseRating=3.11, FireResist=0.04, FrostResist=0.04, HasteRating=2.31, HitRating=2.15, Hp5=1, IsFrill=X, IsOffHand=X, MasteryRating=1, MeleeDps=4.7, MeleeMaxDamage=1.25, MeleeMinDamage=1.25, MetaSocketEffect=36, NatureResist=0.04, ParryRating=0.12, ResilienceRating=0.2, ShadowResist=0.04, Spirit=0.05, Stamina=0.1, Strength=1.1 )
 
-( Pawn: v1: "pve-hit-16-28": Class=Rogue, Spec=Combat, Agility=2.21, AllResist=0.2, Ap=1, ArcaneResist=0.04, Armor=0.005, ArmorPenetration=0.42, CritRating=1.76, DefenseRating=0.05, DodgeRating=0.05, ExpertiseRating=3.11, FireResist=0.04, FrostResist=0.04, HasteRating=2.31, HitRating=1.90, Hp5=1, IsFrill=X, IsOffHand=X, MasteryRating=1, MeleeDps=4.7, MeleeMaxDamage=1.25, MeleeMinDamage=1.25, MetaSocketEffect=36, NatureResist=0.04, ParryRating=0.12, ResilienceRating=0.2, ShadowResist=0.04, Spirit=0.05, Stamina=0.1, Strength=1.1 )
+( Pawn: v1: "pve-hit-16-20": Class=Rogue, Spec=Combat, Agility=2.21, AllResist=0.2, Ap=1, ArcaneResist=0.04, Armor=0.005, ArmorPenetration=0.42, CritRating=1.76, DefenseRating=0.05, DodgeRating=0.05, ExpertiseRating=3.11, FireResist=0.04, FrostResist=0.04, HasteRating=2.31, HitRating=1.95, Hp5=1, IsFrill=X, IsOffHand=X, MasteryRating=1, MeleeDps=4.7, MeleeMaxDamage=1.25, MeleeMinDamage=1.25, MetaSocketEffect=36, NatureResist=0.04, ParryRating=0.12, ResilienceRating=0.2, ShadowResist=0.04, Spirit=0.05, Stamina=0.1, Strength=1.1 )
 
+( Pawn: v1: "pve-hit-20-25": Class=Rogue, Spec=Combat, Agility=2.21, AllResist=0.2, Ap=1, ArcaneResist=0.04, Armor=0.005, ArmorPenetration=0.42, CritRating=1.76, DefenseRating=0.05, DodgeRating=0.05, ExpertiseRating=3.11, FireResist=0.04, FrostResist=0.04, HasteRating=2.31, HitRating=1.75, Hp5=1, IsFrill=X, IsOffHand=X, MasteryRating=1, MeleeDps=4.7, MeleeMaxDamage=1.25, MeleeMinDamage=1.25, MetaSocketEffect=36, NatureResist=0.04, ParryRating=0.12, ResilienceRating=0.2, ShadowResist=0.04, Spirit=0.05, Stamina=0.1, Strength=1.1 )
 
 # ------------------ PVP ------------------- #
 # References: ttps://www.youtube.com/watch?v=l8rO5yeL1_k (Mirlol BiS reverse engineered into APEP. 
